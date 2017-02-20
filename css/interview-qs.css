@@ -16,7 +16,7 @@ body{
 }
 .ad-popup{
 	position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     border: 1px solid #d9d9d9;
        /** box-shadow: 3px 3px 3px #e5e5e5; **/
@@ -28,7 +28,7 @@ body{
 }
 .close-ad{
 	float: right;
-	text-decoration: none;
+	font-size: 14px;
 }
 .fl-left{
 	float: left;
@@ -43,6 +43,10 @@ body{
 	margin: 20px 0px;
     width: 48%;
     text-align: center;
+    background-color: #e5e5e5;
+    border: 1px solid #d5d5d5;
+    display: block;
+    height: 170px;
 }
 .img-parent img {
     max-width: 100%;
@@ -51,10 +55,29 @@ body{
 .img-parent {
    width: 	125px;
    height: 100px;
+   border-bottom: 1px solid #d5d5d5;
 }
 .pd-10{
 	padding: 10px;
 }
 .cboth{
 	clear:both;
+}
+.pg-footer{
+	background-color : #d9d9d9;
+	height: 40px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+.ad-popup a{
+	color: #000;
+	text-decoration: none;
+}
+.img-txt{
+	padding: 10px 5px;
+    font-size: 13px;
+}
+.txt-center{
+	text-align: center;
 }
